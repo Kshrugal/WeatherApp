@@ -124,8 +124,9 @@ struct WeatherView: View {
 
     private func formatTemperature(_ temp: Double) -> String {
         let convertedTemp = isMetric ? temp : temp * 9 / 5 + 32
-        return String(format: "%.1f%@", convertedTemp, "°")
+        return "\(Int(round(convertedTemp)))°"
     }
+
     
     private func lottieAnimation2(for main: String) -> String {
         let hour = Calendar.current.component(.hour, from: Date())
