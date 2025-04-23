@@ -1,0 +1,24 @@
+{
+  "originHash" : "5bde14134b81a32df1449fac74eb56b5785dcd7ae4451a13d82f239d6372fb58",
+  "pins" : [
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "revision" : "fe4c6fe3a0aa66cdeb51d549623c82ca9704b9a5",
+        "version" : "4.5.0"
+      }
+    },
+    {
+      "identity" : "modernslider",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/arjun-dureja/ModernSlider",
+      "state" : {
+        "branch" : "main",
+        "revision" : "614f8f76c680a0f9a049c1b62163dca38e0c3091"
+      }
+    }
+  ],
+  "version" : 3
+}
